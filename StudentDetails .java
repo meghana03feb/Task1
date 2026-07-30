@@ -7,7 +7,7 @@ public class StudentUtility {
 
         String name;
         int rollNo;
-        int mark1, mark2, mark3, mark4, mark5;
+        int sub1marks, sub2marks, sub3marks, sub4marks, sub5marks;
         int total;
         double percentage;
 
@@ -19,22 +19,22 @@ public class StudentUtility {
         rollNo = sc.nextInt();
 
         System.out.print("Enter Marks of Subject 1: ");
-        mark1 = sc.nextInt();
+        sub1marks = sc.nextInt();
 
         System.out.print("Enter Marks of Subject 2: ");
-        mark2 = sc.nextInt();
+        sub2marks = sc.nextInt();
 
         System.out.print("Enter Marks of Subject 3: ");
-        mark3 = sc.nextInt();
+        sub3marks = sc.nextInt();
 
         System.out.print("Enter Marks of Subject 4: ");
-        mark4 = sc.nextInt();
+        sub4marks = sc.nextInt();
 
         System.out.print("Enter Marks of Subject 5: ");
-        mark5 = sc.nextInt();
+        sub5marks = sc.nextInt();
 
         // Calculate Total and Percentage
-        total = mark1 + mark2 + mark3 + mark4 + mark5;
+        total = sub1marks + sub2marks + sub3marks + sub4marks + sub5marks;
         percentage = total / 5.0;
 
         // Display Student Information
